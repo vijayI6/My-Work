@@ -1,1 +1,1 @@
-My Work in Python
+This repository represents my work in Python, including Python projects.
