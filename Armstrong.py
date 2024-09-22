@@ -1,23 +1,26 @@
 """
-Question 2:
-Armstrong Number or Not
+Question 2:   given number is Narcissistic / Armstrong Number  or Not?
+
 """
+
 # Approach 1 (Class) approach
-x = int(input("Enter a number:"))
-temp = copy = x
-s = 0
-length = len(str(x))
-while copy > 0:
-    r = copy % 10
-    s = s + pow(r, length)
-    copy = copy // 10
-if s == x:
-    print("{} is Armstrong number".format(x))
+num = int(input("Enter a number:"))
+temp = num
+res = 0
+length = len(str(num))
+while temp:
+    rem = temp % 10
+    res += pow(rem, length)
+    temp//=  10
+if res == num:
+    print("{} is Armstrong number".format(num))
 else:
-    print("{} is not a Armstrong number".format(x))
+    print("{} is not a Armstrong number".format(num))
+
+
+
 
 # Approach 2 (Own) apporach
-
 s = input('Enter a number:')
 le = len(s)
 # lst = [i ** le for i in list(map(int, s))]
