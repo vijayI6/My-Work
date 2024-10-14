@@ -24,7 +24,14 @@ b = a//b    # b = 12 // 4 --> 3
 a = a//b    # a = 12 // 3 --> 4
 print(a, b)
 
+# using walrus operator (:=) 
+a = 3
+b = 4
+b = a + b - (a := b)
+print(a, b)
+
 # output:
+# 4 3
 # 4 3
 # 4 3
 # 4 3
