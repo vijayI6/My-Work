@@ -9,7 +9,7 @@ for i in range(sizes):
 # Using Recursion
 def fibonacci(n):
     if n == 0 or n == 1:
-        return 1
+        return n
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
@@ -20,4 +20,4 @@ for i in range(size):
 # output:
 # 5
 # 1 1 2 3 5
-# 1 1 2 3 5
+# 0 1 2 3 5
