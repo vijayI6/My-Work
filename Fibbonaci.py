@@ -13,7 +13,7 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-size = int(input("Enter"))
+size = int(input())
 for i in range(size):
     print(fibonacci(i), end=" ")
 
