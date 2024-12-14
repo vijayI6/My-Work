@@ -1,5 +1,5 @@
 # Using Logic
-first, second = 1, 1
+first, second = 0, 1
 sizes = int(input())
 for i in range(sizes):
     print(first, end=' ')
@@ -19,5 +19,5 @@ for i in range(size):
 
 # output:
 # 5
-# 1 1 2 3 5
+# 0 1 2 3 5
 # 0 1 2 3 5
