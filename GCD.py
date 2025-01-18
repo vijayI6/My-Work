@@ -24,7 +24,6 @@ def find_gcd(a, b):
         a, b = b, a % b
     return a
 
-
 num = int(input())
 num1 = int(input())
 
