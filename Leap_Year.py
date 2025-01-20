@@ -21,7 +21,7 @@ Year = int(input('Enter year:'))
 print('Leap Year' if calendar.isleap(Year) else 'Not a Leap Year')  # using Ternary condition
 
 """
-output:
+Output:
 Enter year:2020
 Leap Year
 """
