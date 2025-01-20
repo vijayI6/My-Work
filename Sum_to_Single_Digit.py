@@ -15,3 +15,7 @@ while num:
         num = s
         s = 0
 print(res)
+
+# Output:
+# 123456
+# 3
