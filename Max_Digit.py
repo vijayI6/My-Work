@@ -16,6 +16,7 @@ res = max(lst, key=lst.count)
 print(f"Most repeated element: {res}")
 
 
+
 # Output:
 # 222233
 # 2
