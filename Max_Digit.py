@@ -9,7 +9,7 @@ while num:
 print(lst.index(max(lst)), "is the most repeated number")
 
 
-# By converting a given number into a list
+# By Using List
 num = int(input())
 lst = list(str(num))
 res = max(lst, key=lst.count)
