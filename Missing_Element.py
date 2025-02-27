@@ -2,9 +2,9 @@
 Rule: (sorted / unsorted) data must be in a sequence and n is greater than len(lst)
 """
 
-n = int(input(" Enter length: "))
+length = int(input(" Enter length: "))
 lst = list(map(int, input().split(" ")))
-print((n * (n + 1) // 2) - sum(lst), "is the missing number")
+print((length * (length + 1) // 2) - sum(lst), "is the missing number")
 
 # 2-Approach
 size = int(input())
